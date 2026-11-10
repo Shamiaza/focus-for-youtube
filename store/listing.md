@@ -89,9 +89,14 @@ scopo, no valutazione del credito).
 
 ### Privacy policy
 
-Facoltativa quando non si raccolgono dati, ma consigliata. Il testo è in
-`store/privacy-policy.md`: va pubblicato a un URL pubblico (per esempio GitHub
-Pages o un Gist) e l'URL incollato nel campo apposito.
+URL da incollare nel campo apposito:
+
+    https://github.com/Shamiaza/focus-for-youtube/blob/master/store/privacy-policy.md
+
+Homepage e sito di supporto (scheda "Store listing"):
+
+    https://github.com/Shamiaza/focus-for-youtube
+    https://github.com/Shamiaza/focus-for-youtube/issues
 
 ## Grafica
 

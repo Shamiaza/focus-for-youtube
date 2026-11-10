@@ -12,6 +12,8 @@ richiesta di rete.
 
 Progetto indipendente, non affiliato a YouTube o Google LLC.
 
+[Privacy policy](store/privacy-policy.md)
+
 ## Struttura
 
 | File | Ruolo |

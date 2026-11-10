@@ -18,4 +18,4 @@ Focus for YouTube does not collect, store, transmit or sell any personal data.
 Focus for YouTube is an independent project and is not affiliated with,
 endorsed by or sponsored by YouTube or Google LLC.
 
-Contact: <add a contact address or repository URL before publishing>
+Source code and contact: https://github.com/Shamiaza/focus-for-youtube (open an issue for any question).
