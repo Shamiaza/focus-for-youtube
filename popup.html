@@ -1,20 +1,22 @@
 <!doctype html>
-<html lang="it">
+<html>
 <head>
   <meta charset="utf-8">
-  <title>YouTube Focus</title>
+  <title>Focus for YouTube</title>
   <style>
     :root { color-scheme: light dark; }
-    body { margin: 0; padding: 12px 14px; min-width: 220px; font: 14px system-ui, sans-serif; }
+    body { margin: 0; padding: 12px 14px; min-width: 240px; font: 14px system-ui, sans-serif; }
     h1 { margin: 0 0 10px; font-size: 14px; font-weight: 600; }
-    label { display: flex; align-items: center; gap: 8px; padding: 5px 0; cursor: pointer; }
+    label { display: flex; align-items: center; gap: 8px; padding: 5px 0; cursor: pointer; white-space: nowrap; }
     input { margin: 0; }
   </style>
 </head>
 <body>
-  <h1>YouTube Focus</h1>
-  <label><input type="checkbox" data-key="hideRecommended"> Nascondi video consigliati</label>
-  <label><input type="checkbox" data-key="hideComments"> Nascondi commenti</label>
+  <h1 data-i18n="extName"></h1>
+  <label><input type="checkbox" data-key="hideShorts"> <span data-i18n="optHideShorts"></span></label>
+  <label><input type="checkbox" data-key="redirectHome"> <span data-i18n="optRedirectHome"></span></label>
+  <label><input type="checkbox" data-key="hideRecommended"> <span data-i18n="optHideRecommended"></span></label>
+  <label><input type="checkbox" data-key="hideComments"> <span data-i18n="optHideComments"></span></label>
   <script src="settings.js"></script>
   <script src="popup.js"></script>
 </body>

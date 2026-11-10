@@ -1,23 +1,39 @@
 {
   "manifest_version": 3,
-  "name": "YouTube Focus",
-  "version": "1.1.0",
-  "description": "Nasconde Shorts, video consigliati e commenti; porta sempre alle iscrizioni invece che alla Home.",
+  "name": "__MSG_extName__",
+  "short_name": "__MSG_extShortName__",
+  "version": "1.2.0",
+  "description": "__MSG_extDescription__",
+  "default_locale": "en",
+  "minimum_chrome_version": "105",
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
   "permissions": [
-    "declarativeNetRequest",
+    "declarativeNetRequestWithHostAccess",
     "storage"
   ],
   "host_permissions": [
     "*://www.youtube.com/*",
-    "*://m.youtube.com/*",
-    "*://youtube.com/*"
+    "*://m.youtube.com/*"
   ],
+  "background": {
+    "service_worker": "background.js"
+  },
   "declarative_net_request": {
     "rule_resources": [
       {
-        "id": "redirects",
+        "id": "home",
         "enabled": true,
-        "path": "rules.json"
+        "path": "rules-home.json"
+      },
+      {
+        "id": "shorts",
+        "enabled": true,
+        "path": "rules-shorts.json"
       }
     ]
   },
@@ -39,7 +55,11 @@
     }
   ],
   "action": {
-    "default_title": "YouTube Focus",
-    "default_popup": "popup.html"
+    "default_title": "__MSG_extName__",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png"
+    }
   }
 }

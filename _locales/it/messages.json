@@ -1,0 +1,9 @@
+{
+  "extName": { "message": "Focus for YouTube" },
+  "extShortName": { "message": "Focus" },
+  "extDescription": { "message": "Nasconde Shorts, video consigliati e commenti, e apre le Iscrizioni al posto della Home." },
+  "optHideShorts": { "message": "Nascondi Shorts" },
+  "optRedirectHome": { "message": "Apri Iscrizioni al posto della Home" },
+  "optHideRecommended": { "message": "Nascondi video consigliati" },
+  "optHideComments": { "message": "Nascondi commenti" }
+}

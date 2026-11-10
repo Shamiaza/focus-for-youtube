@@ -4,18 +4,6 @@
     "priority": 1,
     "action": {
       "type": "redirect",
-      "redirect": { "regexSubstitution": "https://\\1.youtube.com/feed/subscriptions" }
-    },
-    "condition": {
-      "regexFilter": "^https?://(www|m)\\.youtube\\.com/?(\\?.*)?$",
-      "resourceTypes": ["main_frame"]
-    }
-  },
-  {
-    "id": 2,
-    "priority": 1,
-    "action": {
-      "type": "redirect",
       "redirect": { "regexSubstitution": "https://\\1.youtube.com/watch?v=\\2" }
     },
     "condition": {

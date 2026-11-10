@@ -1,5 +1,7 @@
-// Opzioni condivise tra content script e popup. true = elemento nascosto.
+// Opzioni condivise tra content script, popup e service worker. true = attiva.
 const YTF_DEFAULTS = {
+  hideShorts: true,
+  redirectHome: true,
   hideRecommended: true,
   hideComments: true,
 };

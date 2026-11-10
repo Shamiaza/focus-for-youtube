@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": { "regexSubstitution": "https://\\1.youtube.com/feed/subscriptions" }
+    },
+    "condition": {
+      "regexFilter": "^https?://(www|m)\\.youtube\\.com/?(\\?.*)?$",
+      "resourceTypes": ["main_frame"]
+    }
+  }
+]

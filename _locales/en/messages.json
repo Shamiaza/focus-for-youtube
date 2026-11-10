@@ -1,0 +1,9 @@
+{
+  "extName": { "message": "Focus for YouTube" },
+  "extShortName": { "message": "Focus" },
+  "extDescription": { "message": "Hides Shorts, recommended videos and comments, and opens Subscriptions instead of the Home feed." },
+  "optHideShorts": { "message": "Hide Shorts" },
+  "optRedirectHome": { "message": "Open Subscriptions instead of Home" },
+  "optHideRecommended": { "message": "Hide recommended videos" },
+  "optHideComments": { "message": "Hide comments" }
+}

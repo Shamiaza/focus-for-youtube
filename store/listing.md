@@ -1,0 +1,109 @@
+# Scheda Chrome Web Store
+
+Testi pronti da incollare nella Developer Dashboard
+(https://chrome.google.com/webstore/devconsole). Il nome e la descrizione breve
+arrivano da `_locales/`, non vanno riscritti a mano.
+
+## Dati generali
+
+- Categoria: Productivity > Workflow & Planning (in alternativa: Well-being)
+- Lingua predefinita: English
+- Lingue aggiuntive: Italiano
+
+## Descrizione dettagliata (English)
+
+Focus for YouTube removes the parts of YouTube that pull you away from what you
+came to watch.
+
+What it does:
+- Hides Shorts everywhere: shelves, search results, the sidebar entry and channel tabs. A Shorts link opens in the normal video player instead.
+- Opens your Subscriptions instead of the Home feed.
+- Hides recommended videos next to and at the end of a video.
+- Hides comments.
+
+Every option can be switched on or off from the toolbar popup, and your choices
+sync across your browsers.
+
+Privacy: the extension collects nothing. No analytics, no accounts, no network
+requests. It only stores your four on/off preferences in Chrome's own sync storage.
+
+It does not block ads and does not download videos.
+
+Focus for YouTube is an independent project. It is not affiliated with,
+endorsed by or sponsored by YouTube or Google LLC. YouTube is a trademark of
+Google LLC.
+
+## Descrizione dettagliata (Italiano)
+
+Focus for YouTube toglie da YouTube le parti che ti distraggono da quello che
+eri venuto a guardare.
+
+Cosa fa:
+- Nasconde gli Shorts ovunque: scaffali, risultati di ricerca, voce del menu laterale e tab dei canali. Un link a uno Short si apre nel player normale.
+- Apre le Iscrizioni al posto della Home.
+- Nasconde i video consigliati accanto al video e alla fine.
+- Nasconde i commenti.
+
+Ogni opzione si attiva o disattiva dal popup nella barra degli strumenti e le
+scelte si sincronizzano tra i tuoi browser.
+
+Privacy: l'estensione non raccoglie nulla. Niente statistiche, niente account,
+nessuna richiesta di rete. Salva solo le quattro preferenze nello spazio di
+sincronizzazione di Chrome.
+
+Non blocca la pubblicità e non scarica video.
+
+Focus for YouTube è un progetto indipendente. Non è affiliato, approvato o
+sponsorizzato da YouTube o Google LLC. YouTube è un marchio di Google LLC.
+
+## Scheda "Privacy practices"
+
+### Single purpose
+
+Reduce distractions on YouTube by hiding Shorts, recommended videos and
+comments, and by opening the Subscriptions feed instead of the Home feed.
+
+### Giustificazione dei permessi
+
+- `storage`: saves the user's four on/off preferences so they persist and sync
+  across the user's browsers. Nothing else is stored.
+- `declarativeNetRequestWithHostAccess`: redirects two kinds of YouTube page
+  loads before they render: the Home page to the Subscriptions feed, and
+  /shorts/ID links to the regular /watch player. The rules are static, bundled
+  with the extension, and only apply to youtube.com.
+- Host permissions (`www.youtube.com`, `m.youtube.com`): required to inject the
+  stylesheet that hides the distracting elements and the content script that
+  handles YouTube's in-page navigation, and to let the redirect rules apply.
+  The extension runs on no other site.
+
+### Remote code
+
+No, the extension does not use remote code. All JavaScript and CSS is bundled
+in the package.
+
+### Data usage
+
+Nessuna casella da spuntare: l'estensione non raccoglie né trasmette dati.
+Spuntare le tre certificazioni finali (no vendita a terzi, no usi estranei allo
+scopo, no valutazione del credito).
+
+### Privacy policy
+
+Facoltativa quando non si raccolgono dati, ma consigliata. Il testo è in
+`store/privacy-policy.md`: va pubblicato a un URL pubblico (per esempio GitHub
+Pages o un Gist) e l'URL incollato nel campo apposito.
+
+## Grafica ancora da preparare a mano
+
+- Icona 128x128: `icons/icon128.png` (già nel pacchetto).
+- Almeno uno screenshot 1280x800 (o 640x400). Consigliato: una pagina video con
+  consigliati e commenti nascosti, e il popup aperto.
+- Small promo tile 440x280.
+
+## Account e invio
+
+- Registrazione sviluppatore: 5 dollari una tantum, verifica in due passaggi
+  obbligatoria sull'account Google.
+- Dichiarazione trader/non-trader (UE, Digital Services Act): "non-trader" se
+  l'estensione è gratuita e non è un'attività commerciale.
+- Pacchetto da caricare: l'output di `./build.sh` in `dist/`.
