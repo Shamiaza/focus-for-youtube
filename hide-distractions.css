@@ -1,0 +1,21 @@
+/* Video consigliati: attivo quando <html data-ytf-hide-recommended> */
+html[data-ytf-hide-recommended] #related,
+html[data-ytf-hide-recommended] ytd-watch-next-secondary-results-renderer,
+html[data-ytf-hide-recommended] .ytp-endscreen-content,
+html[data-ytf-hide-recommended] .ytp-ce-element,
+html[data-ytf-hide-recommended] .ytp-fullscreen-grid,
+html[data-ytf-hide-recommended] .ytp-fullscreen-grid-peeking,
+html[data-ytf-hide-recommended] .ytp-pause-overlay,
+html[data-ytf-hide-recommended] .ytp-autonav-endscreen,
+html[data-ytf-hide-recommended] ytm-item-section-renderer[section-identifier="related-items"] {
+  display: none !important;
+}
+
+/* Commenti: attivo quando <html data-ytf-hide-comments> */
+html[data-ytf-hide-comments] ytd-comments#comments,
+html[data-ytf-hide-comments] ytd-engagement-panel-section-list-renderer[target-id="engagement-panel-comments-section"],
+html[data-ytf-hide-comments] ytd-comments-entry-point-header-renderer,
+html[data-ytf-hide-comments] ytm-comment-section-renderer,
+html[data-ytf-hide-comments] ytm-comments-entry-point-header-renderer {
+  display: none !important;
+}

@@ -1,0 +1,35 @@
+/* Scaffali Shorts in home, iscrizioni, ricerca, pagina video */
+ytd-reel-shelf-renderer,
+ytd-rich-shelf-renderer[is-shorts],
+ytd-rich-section-renderer:has(ytd-rich-shelf-renderer[is-shorts]),
+ytd-rich-section-renderer:has(ytm-shorts-lockup-view-model),
+ytd-rich-section-renderer:has(ytm-shorts-lockup-view-model-v2),
+grid-shelf-view-model:has(ytm-shorts-lockup-view-model),
+grid-shelf-view-model:has(ytm-shorts-lockup-view-model-v2),
+ytm-shorts-lockup-view-model,
+ytm-shorts-lockup-view-model-v2,
+
+/* Singoli video Shorts mescolati nei feed / risultati */
+ytd-rich-item-renderer:has(a[href^="/shorts/"]),
+ytd-video-renderer:has(a[href^="/shorts/"]),
+ytd-grid-video-renderer:has(a[href^="/shorts/"]),
+ytd-compact-video-renderer:has(a[href^="/shorts/"]),
+yt-lockup-view-model:has(a[href^="/shorts/"]),
+
+/* Voce "Shorts" nel menu laterale (pieno e compatto) */
+ytd-guide-entry-renderer:has(a[title="Shorts"]),
+ytd-guide-entry-renderer:has(a[href="/shorts"]),
+ytd-guide-entry-renderer:has(a[href^="/shorts/"]),
+ytd-mini-guide-entry-renderer[aria-label="Shorts"],
+ytd-mini-guide-entry-renderer:has(a[href^="/shorts"]),
+
+/* Tab "Shorts" nella pagina dei canali */
+yt-tab-shape[tab-title="Shorts"],
+tp-yt-paper-tab:has(a[href$="/shorts"]),
+
+/* Versione mobile (m.youtube.com) */
+ytm-reel-shelf-renderer,
+ytm-pivot-bar-item-renderer:has(.pivot-shorts),
+ytm-video-with-context-renderer:has(a[href^="/shorts/"]) {
+  display: none !important;
+}
