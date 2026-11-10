@@ -93,12 +93,20 @@ Facoltativa quando non si raccolgono dati, ma consigliata. Il testo è in
 `store/privacy-policy.md`: va pubblicato a un URL pubblico (per esempio GitHub
 Pages o un Gist) e l'URL incollato nel campo apposito.
 
-## Grafica ancora da preparare a mano
+## Grafica
+
+Tutto pronto, PNG senza trasparenza nei formati richiesti dallo store:
 
 - Icona 128x128: `icons/icon128.png` (già nel pacchetto).
-- Almeno uno screenshot 1280x800 (o 640x400). Consigliato: una pagina video con
-  consigliati e commenti nascosti, e il popup aperto.
-- Small promo tile 440x280.
+- Screenshot 1280x800, in `store/screenshots/`, da caricare in quest'ordine:
+  1. `01-watch-page.png`: pagina video ripulita con il popup aperto.
+  2. `02-recommended-comments.png`: prima/dopo su consigliati e commenti.
+  3. `03-shorts.png`: prima/dopo sugli Shorts nei risultati di ricerca.
+- Small promo tile 440x280: `store/promo-tile-440x280.png`.
+
+Gli screenshot sono catturati da un profilo senza login sul video "Big Buck
+Bunny" (Blender Foundation, CC BY). Nei riquadri "prima" le miniature di terzi
+e lo Short sono sfocati di proposito.
 
 ## Account e invio
 
