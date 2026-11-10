@@ -48,5 +48,13 @@ store. I passi restanti sono in `store/listing.md`.
 
 ## Licenza
 
-Open source con licenza [MIT](LICENSE). Il nome e il logo YouTube sono marchi
-di Google LLC e non sono coperti da questa licenza.
+Copyright (C) 2026 Francesco Stanziola
+
+Software libero con licenza [GNU General Public License](LICENSE), versione 3
+o successiva. Chiunque può usarlo, studiarlo, modificarlo e ridistribuirlo, ma
+ogni versione distribuita, anche modificata, deve restare sotto la stessa
+licenza e con il codice sorgente disponibile. Il programma è fornito senza
+alcuna garanzia.
+
+Il nome e il logo YouTube sono marchi di Google LLC e non sono coperti da
+questa licenza.
