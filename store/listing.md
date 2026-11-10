@@ -29,6 +29,8 @@ requests. It only stores your four on/off preferences in Chrome's own sync stora
 
 It does not block ads and does not download videos.
 
+Open source (MIT license): https://github.com/Shamiaza/focus-for-youtube
+
 Focus for YouTube is an independent project. It is not affiliated with,
 endorsed by or sponsored by YouTube or Google LLC. YouTube is a trademark of
 Google LLC.
@@ -52,6 +54,8 @@ nessuna richiesta di rete. Salva solo le quattro preferenze nello spazio di
 sincronizzazione di Chrome.
 
 Non blocca la pubblicità e non scarica video.
+
+Open source (licenza MIT): https://github.com/Shamiaza/focus-for-youtube
 
 Focus for YouTube è un progetto indipendente. Non è affiliato, approvato o
 sponsorizzato da YouTube o Google LLC. YouTube è un marchio di Google LLC.

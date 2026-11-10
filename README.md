@@ -45,3 +45,8 @@ Per rigenerare le icone dopo aver modificato `icons/icon.svg`:
 
 crea `dist/focus-for-youtube-<versione>.zip`, il pacchetto da caricare sullo
 store. I passi restanti sono in `store/listing.md`.
+
+## Licenza
+
+Open source con licenza [MIT](LICENSE). Il nome e il logo YouTube sono marchi
+di Google LLC e non sono coperti da questa licenza.
